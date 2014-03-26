@@ -13,6 +13,6 @@
     "/img/logo.svg",
     "/img/logo.png"
   ],
-  "styles": ["/budicon/styles.css", "index.css"],
+  "styles": ["/budicon/styles.css", "vars.styl", "index.css"],
   "license": "MIT"
 }
