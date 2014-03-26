@@ -1,0 +1,18 @@
+{
+  "name": "styleguide",
+  "description": "Auth0 Styleguide component.",
+  "dependencies": {
+    "component/jquery": "*"
+  },
+  "images": [
+    "/budicon/fonts/budicon-font.eot",
+    "/budicon/fonts/budicon-font.ttf",
+    "/budicon/fonts/budicon-font.woff",
+    "/budicon/fonts/budicon-font.svg",
+    "/img/favicon.png",
+    "/img/logo.svg",
+    "/img/logo.png"
+  ],
+  "styles": ["/budicon/styles.css", "index.css"],
+  "license": "MIT"
+}
