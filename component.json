@@ -2,7 +2,7 @@
   "name": "styleguide",
   "description": "Auth0 Styleguide component.",
   "dependencies": {
-    "components/bootstrap": "*",
+    "codemix/bootstrap-component": "*",
     "component/jquery": "*"
   },
   "images": [
