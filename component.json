@@ -14,6 +14,6 @@
     "/img/logo.svg",
     "/img/logo.png"
   ],
-  "styles": ["/budicon/styles.css", "index.css"],
+  "styles": ["/budicon/budicon.css", "index.css"],
   "license": "MIT"
 }
