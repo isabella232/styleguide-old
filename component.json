@@ -2,6 +2,7 @@
   "name": "styleguide",
   "description": "Auth0 Styleguide component.",
   "dependencies": {
+    "omponents/bootstrap": "*",
     "component/jquery": "*"
   },
   "images": [
