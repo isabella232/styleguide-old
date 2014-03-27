@@ -2,8 +2,7 @@
   "name": "styleguide",
   "description": "Auth0 Styleguide component.",
   "dependencies": {
-    "codemix/bootstrap-component": "*",
-    "component/jquery": "*"
+    "codemix/bootstrap-component": "*"
   },
   "images": [
     "budicon/fonts/budicon-font.eot",
