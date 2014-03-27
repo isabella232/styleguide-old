@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Auth0 Styleguide component.",
   "dependencies": {
-    "codemix/bootstrap-component": "*"
+    "bootstrap": "*"
   },
   "images": [
     "budicon/fonts/budicon-font.eot",
@@ -14,6 +14,6 @@
     "img/logo.svg",
     "img/logo.png"
   ],
-  "styles": ["budicon/budicon.css", "index.css"],
+  "main": ["budicon/budicon.css", "index.css"],
   "license": "MIT"
 }
