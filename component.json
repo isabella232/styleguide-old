@@ -10,7 +10,7 @@
     "budicon/fonts/budicon-font.svg",
     "img/favicon.png",
     "img/logo.svg",
-    "img/logo.png",
+    "img/logo.png"
   ],
   "styles": ["budicon/budicon.css", "css/index.css"],
   "license": "MIT"
