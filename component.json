@@ -2,9 +2,6 @@
   "name": "styleguide",
   "version": "0.0.1",
   "description": "Auth0 Styleguide component.",
-  "dependencies": {
-    "codemix/bootstrap-component": "*"
-  },
   "images": [
     "budicon/fonts/budicon-font.eot",
     "budicon/fonts/budicon-font.ttf",
