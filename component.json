@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Auth0 Styleguide component.",
   "images": [
-    "css/bootstrap.min.css",
     "budicon/fonts/budicon-font.eot",
     "budicon/fonts/budicon-font.ttf",
     "budicon/fonts/budicon-font.woff",
