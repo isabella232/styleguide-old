@@ -49,8 +49,8 @@ a
 	color: darken(color_blue_light, 40%);
 	&:hover 
 		text-decoration: none
-		color: black;
-
+		color: color_blue_light
+		
 a.btn, a.btn-default
 	font-weight: bold
 	border-radius: 4px;
@@ -376,6 +376,70 @@ span.icon-badge
 .pln {
     color: #000
 }
+
+
+.sidebar-box
+	max-width: 230px;
+
+	border: 1px solid #eee;
+
+	border-radius: 3px;
+	margin-bottom: 20px;
+	padding: 14px 20px;
+
+
+    strong
+		text-transform: uppercase
+		font-weight: bold;
+		font-size: 12px;
+		margin-bottom: 6px;
+		display: block
+		letter-spacing: 1px;
+		color: #999;
+
+	ul 
+		padding: 0;
+		margin: 0;
+
+		list-style: none;
+
+        a
+			color: #666;
+
+			&:hover
+				color: black;
+
+
+
+		li
+			line-height: 28px;
+
+			i:before
+				content: "\e16f";
+				font-family: "budicon-font" !important;
+				speak: none;
+			i
+				width: 10px;
+				height: 10px;
+				display: inline-block
+				font-family: "budicon-font" !important;
+				font-style: normal !important;
+				font-weight: normal !important;
+				font-variant: normal !important;
+				text-transform: none !important;
+				speak: none;
+				line-height: 1;
+				margin-right: 8px;
+				position: relative;
+				top: 2px;
+				height: 14px;
+				// background: red;
+
+			&.selected
+				a
+					color: black !important;
+					// font-weight: bold;
+
 
 @media screen {
     .str {
