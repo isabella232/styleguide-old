@@ -9,6 +9,10 @@
     "css/budicon/fonts/budicon-font.svg",
     "img/favicon.png",
     "img/logo.svg",
+    "img/logo-blue.ai",
+    "img/logo-grey.ai",
+    "img/logo-blue.png",
+    "img/logo-grey.png",
     "img/logo.png"
   ],
   "styles": [ "css/index.css"],
