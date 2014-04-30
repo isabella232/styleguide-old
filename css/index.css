@@ -319,7 +319,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   content: "~";
 }
 .icon-budicon-93:before {
-  content: "\";
+  content: "\\";
 }
 .icon-budicon-94:before {
   content: "\e000";
