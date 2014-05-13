@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "budicon-font";
-  src:url("http://cdn.auth0.com/fonts/budicons/fonts/budicon-font.eot");
-  src:url("http://cdn.auth0.com/fonts/budicons/fonts/budicon-font.eot?#iefix") format("embedded-opentype"),
-    url("http://cdn.auth0.com/fonts/budicons/fonts/budicon-font.woff") format("woff"),
-    url("http://cdn.auth0.com/fonts/budicons/fonts/budicon-font.ttf") format("truetype"),
-    url("http://cdn.auth0.com/fonts/budicons/fonts/budicon-font.svg#budicon-font") format("svg");
+  src:url("budicon/fonts/budicon-font.eot");
+  src:url("budicon/fonts/budicon-font.eot?#iefix") format("embedded-opentype"),
+    url("budicon/fonts/budicon-font.woff") format("woff"),
+    url("budicon/fonts/budicon-font.ttf") format("truetype"),
+    url("budicon/fonts/budicon-font.svg#budicon-font") format("svg");
   font-weight: normal;
   font-style: normal;
 
