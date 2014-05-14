@@ -6,7 +6,7 @@ Auth0 Product Style Guide
 
 ## Add in your next app
 <pre>
-<link href="styleguide/index.css" rel="stylesheet" />
+&lt;link href=&quot;styleguide/index.css&quot; rel=&quot;stylesheet&quot; /&gt;
 </pre>
 
 
