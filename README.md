@@ -1,7 +1,7 @@
 Auth0 Styleguide
 ================
 
-Auth0 Product Style Guide
+Auth0 Product Style Guide. Works with Component.IO & Bower
 
 
 ## Add this in your next app
