@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @import 'vars.styl';
 
 @import 'bootstrap.min.css';
@@ -15,9 +17,9 @@
 a:focus
 	outline: 0;
 
-body 
-	-webkit-font-smoothing: antialiased;  
-	-moz-font-smoothing: antialiased;  
+body
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
 	font-family: "proxima-nova", "Helvetica Neue", sans-serif;
 	overflow-x: hidden
 
@@ -43,15 +45,15 @@ p, li
 
 a
 	color: darken(color_blue_light, 40%);
-	&:hover 
+	&:hover
 		text-decoration: none
 		color: color_blue_light
-		
+
 a.btn, a.btn-default
 	font-weight: bold
 	border-radius: 4px;
 
-	&:hover 
+	&:hover
 		color: white;
 
 h1,h2,h3
@@ -87,7 +89,7 @@ h5.styled
 	padding-top:  80px  ;
 	padding-bottom: 80px;
 
-.btn 
+.btn
 	-webkit-transition: background-color 0.2s ease;
 	-moz-transition: background-color 0.2s ease;
 	-ms-transition: background-color 0.2s ease;
@@ -98,13 +100,13 @@ h5.styled
 	letter-spacing: 2px;
 	border: 0;
 
-	&.btn-none 
+	&.btn-none
 		border: 0;
 		text-transform: none
 		letter-spacing: 0;
 		padding-left: 20px;
 		padding-right: 20px;
-	
+
 	&.btn-sm
 		font-size: 12px;
 		line-height: 12px;
@@ -115,11 +117,11 @@ h5.styled
 		padding-left: 32px;
 		padding-right: 30px;
 		font-size: 15px;
-	
+
 	&.btn-success
 		background-color: #eb5422;
 		color: #fff;
-		&:hover 
+		&:hover
 			background-color: darken(#eb5422, 30%);
 			color: #fff
 
@@ -130,7 +132,7 @@ h5.styled
 			background: darken(color_red, 40%);
 			color: white;
 
-	&:active 
+	&:active
 		box-shadow: none;
 
 .help-circle
@@ -141,7 +143,7 @@ h5.styled
 	position: relative;
 	top: -2px;
 
-	&:hover 
+	&:hover
 			opacity: 1;
 
 pre.code-snippet.prettyprint
@@ -158,8 +160,8 @@ pre.code-snippet.prettyprint
 	box-shadow: 0 1px 6px rgba(0,0,0,.4);
 	list-style: dotted;
 	// overflow: hidden
-	
-	ol 
+
+	ol
 		margin: 0;
 		padding: 0;
 		color: #999;
@@ -169,12 +171,12 @@ pre.code-snippet.prettyprint
 		background: none;
 	li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8
 		list-style: inherit;
-	li 
+	li
 		padding-left: 10px;
 
 
 
-.banner 
+.banner
 	color: white;
 	text-align: center
 	padding-top: 60px;
@@ -191,11 +193,11 @@ pre.code-snippet.prettyprint
 	background: -ms-linear-gradient(120deg,  rgba(20,32,77,1) 0%,rgba(60,200,244,1) 100%); /* IE10+ */
 	background: linear-gradient(120deg,  rgba(20,32,77,1) 0%,rgba(60,200,244,1) 100%); /* W3C */
 
-	h1 
+	h1
 		font-size: 270%;
 		margin-top: 0;
 		color: white;
-	p 
+	p
 		font-size: 120%;
 		max-width: 580px;
 		margin: auto;
@@ -208,15 +210,15 @@ pre.code-snippet.prettyprint
 		font-size: 50px;
 		-webkit-animation: icon_banner 1s;
 		position: relative;
-		
-	.btn 
+
+	.btn
 		margin-top: 10px;
 		// background: color_blue_light;
 		// &:hover
 		// 	background: color_blue_light;
 		// 	color: #fff;
 
-	em 
+	em
 		display: block
 		font-size: 12px;
 		margin-top: 4px;
@@ -225,17 +227,17 @@ pre.code-snippet.prettyprint
 
 
 @keyframes icon_banner
-	from 
+	from
 		top: -100px;
 		opacity: 0;
-	to 
+	to
 		opacity: 1;
 		top: 0;
 
 section.section
 	margin-bottom: 80px;
 
-span.icon-badge 
+span.icon-badge
 	background: color_grey;
 	width: 60px;
 	height: 60px;
@@ -256,16 +258,16 @@ span.icon-badge
 		padding-left: 0;
 		&.ul-inline
 			margin: 20px 0;
-			li 
+			li
 				background: url('/homepage/img/icon-checkmark.png') left 4px no-repeat;
 				display: inline-block
 				padding-left: 30px;
 				margin: 0 20px;
 
-		&.ul-large 
+		&.ul-large
 			text-align: left;
 
-		li 
+		li
 			margin-bottom: 20px;
 			background: url('/homepage/img/icon-checkmark.png') left 4px no-repeat;
 			padding-left: 30px;
@@ -277,10 +279,10 @@ span.icon-badge
 	padding: 0 20px;
 	margin: auto;
 	margin-bottom: 80px;
-	h2 
+	h2
 		margin-bottom: 20px;
 		color: block;
-	p 
+	p
 		font-size: 120%;
 		color: #798291;
 		line-height: 160%;
@@ -294,11 +296,11 @@ span.icon-badge
 
 // Quotes
 
-.quotes 
+.quotes
 	text-align: center
 	padding: 20px 0;
 	position: relative;
-	blockquote 
+	blockquote
 		border: 0;
 		padding-left: 0;
 		margin-bottom: 0;
@@ -315,7 +317,7 @@ span.icon-badge
 		transition: all 0.3s ease;
 		z-index: 0;
 
-		p 
+		p
 			font-size: 24px;
 			font-weight: 100;
 			font-style: italic
@@ -327,10 +329,10 @@ span.icon-badge
 			margin-bottom: 10px;
 			display: inline-block
 
-		&.active 
+		&.active
 			opacity: 1;
 			display: block
-	img 
+	img
 		border-radius: 100px;
 		width: 48px;
 		margin: 0 10px;
@@ -347,11 +349,11 @@ span.icon-badge
 	margin: 80px 0;
 	padding: 50px 20px 44px 20px;
 	border-radius: 3px;
-	span 
+	span
 		font-size: 30px;
 		font-weight: 100;
 		display: inline-block
-	.btn 
+	.btn
 		margin-left: 20px;
 		margin-top: -20px;
 	.copy
@@ -360,7 +362,7 @@ span.icon-badge
 
 .tip
 	font-size: 14px;
-	a 
+	a
 		font-weight: bold
 		color: white;
 		border-color: white !important;
@@ -392,7 +394,7 @@ span.icon-badge
 		letter-spacing: 1px;
 		color: #999;
 
-	ul 
+	ul
 		padding: 0;
 		margin: 0;
 
@@ -572,23 +574,23 @@ li.L1, li.L3, li.L5, li.L7, li.L9 {
 		min-height: 10px;
 		position: static;
 
-	.zopim 
+	.zopim
 		display: none
 
 
 @media screen and (max-width: 660px)
-	
-	.banner 
+
+	.banner
 		padding: 20px 0;
 		h1
 			font-size: 36px
-	
+
 	.try-banner
 		padding: 20px;
 		margin-top: 40px;
 		text-align: center;
 		margin-bottom: 20px;
-		span 
+		span
 			display: block
 			margin-bottom: 20px;
 		.btn
